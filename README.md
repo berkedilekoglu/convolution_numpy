@@ -1,18 +1,13 @@
-# kernel_trick
-Creating a single layer feed forward neural network according to Rahimi's randomized kernel transformation.
+# Convolution and Pooling operations from scratch
 
+Matrix implementation of a convolution, max and average pooling operation
 
-ML_banana_dataset will be used!
+* These can be used to build a neural network!
+* Numpy will be used to implement from scratch
+* To give a better illustration famous Lenna image and Gabor filters will be used
 
-* Network was implemented from scratch
+I highly recommend you to read this tutorial:
 
-* The first layer of our network will make randomized kernel transformation
+https://cs231n.github.io/convolutional-networks/
 
-* The second layer will make linear classification
-
-* Softmax cross entropy loss will be used
-
-
-
-You can reach their paper on the link:
-https://papers.nips.cc/paper/3182-random-features-for-large-scale-kernel-machines.pdf
+If you read and follow that course step by step with imptlementation you can understand the magic behind convolutional neural networks!
